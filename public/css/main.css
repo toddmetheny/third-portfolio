@@ -90,6 +90,8 @@ a:hover{
   margin-left: 45%;
   margin-top: 240px;
   border-radius: 100%;
+  border-style: solid;
+  border-color: #00E800;
 }
 
 
