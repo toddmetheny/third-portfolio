@@ -34,7 +34,7 @@ h1 {
   bottom: 0;
   left: 0;
   text-align: center; 
-  margin: 0% auto -11.5em;
+  margin: 0% auto -12.5em;
   margin-left: 25%;
 }
 
@@ -61,26 +61,26 @@ a:hover{
 
 .mailbox{
   position: absolute;
-  margin-top: -80px;
+  margin-top: -60px;
   margin-left: 80%;
 }
 
 #github{
   position: absolute;
   margin-left: 81%;
-  margin-top: 240px; 
+  margin-top: 260px; 
 }
 
 #linkedin{
   position: absolute;
   margin-left: 13%;
-  margin-top: 240px;
+  margin-top: 260px;
 }
 
 #twitter{
   position: absolute;
   margin-left: 13%;
-  margin-top: -80px;
+  margin-top: -60px;
 }
 
 .profile-photo{
@@ -88,7 +88,7 @@ a:hover{
   display: block;
   max-width: 100px;
   margin-left: 45%;
-  margin-top: 205px;
+  margin-top: 230px;
   border-radius: 100%;
 }
 
