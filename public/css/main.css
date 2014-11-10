@@ -61,26 +61,26 @@ a:hover{
 
 .mailbox{
   position: absolute;
-  margin-top: -60px;
+  margin-top: -70px;
   margin-left: 80%;
 }
 
 #github{
   position: absolute;
   margin-left: 81%;
-  margin-top: 260px; 
+  margin-top: 270px; 
 }
 
 #linkedin{
   position: absolute;
   margin-left: 13%;
-  margin-top: 260px;
+  margin-top: 270px;
 }
 
 #twitter{
   position: absolute;
   margin-left: 13%;
-  margin-top: -60px;
+  margin-top: -70px;
 }
 
 .profile-photo{
@@ -88,7 +88,7 @@ a:hover{
   display: block;
   max-width: 100px;
   margin-left: 45%;
-  margin-top: 230px;
+  margin-top: 240px;
   border-radius: 100%;
 }
 
