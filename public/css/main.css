@@ -1,97 +1,50 @@
-@font-face{
-  font-family: minecraftia;
-  src: url(fonts/Minecraftia-Regular.ttf);
+html{
+  background-color: #3c4142;
 }
 
-html { 
-  background-image: url(img/classic_mac.jpg); 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100% 100%;
-  position: relative;
-}
-
-h1 {
+h1{
+  color: #fff;
   text-align: center;
-  color: #00E800;
-  margin-top: 80px;
-  font-family: minecraftia;
-  font-size: 25px;
+  margin-top: 10%;
+  font-size: 50px;
 }
 
-.container {
-  width: 50%;
-  position: relative;
-  top: 150px;
-  /*background-color: #fff*/
-}
+.profile-photo{
+  display: block;
+  max-width: 120px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #fff;
+  margin: 0 auto 30px;
+  }
 
-.site-footer{
-  width: 100%;
-  height: 1px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  text-align: center; 
-  margin: 0% auto -14em;
-  margin-left: 25%;
-}
+  /*.profile-photo:hover{
+    background-image: url(img/Yoda.png);
+    display: block;
+    max-width: 120px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #fff;
+    margin: 0 auto 30px;
 
-ul{
+  }*/
+
+.social{
   list-style: none;
-  position: absolute;
-  left: 50px;
-  bottom: 1px;
-}
-
-li{
-  display: inline;
-  margin: 5px;
-  
+  margin-right: auto;
+  margin-left: auto;
+  width: 20em;
 }
 
 a{
-  color: #00E800;
+  color: #fff;
 }
 
 a:hover{
   color: #0066FF;
 }
 
-.mailbox{
-  position: absolute;
-  margin-top: -70px;
-  margin-left: 80%;
+li{
+  display: inline;
+  padding: 10px;
 }
-
-#github{
-  position: absolute;
-  margin-left: 81%;
-  margin-top: 270px; 
-}
-
-#linkedin{
-  position: absolute;
-  margin-left: 13%;
-  margin-top: 270px;
-}
-
-#twitter{
-  position: absolute;
-  margin-left: 13%;
-  margin-top: -70px;
-}
-
-.profile-photo{
-  position: absolute;
-  display: block;
-  max-width: 100px;
-  margin-left: 45%;
-  margin-top: 240px;
-  border-radius: 100%;
-  border-style: solid;
-  border-color: #00E800;
-}
-
-
